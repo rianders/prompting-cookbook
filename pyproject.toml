@@ -1,0 +1,15 @@
+[project]
+name = "prompting-cookbook"
+version = "0.1.0"
+description = "Prompt recipes, examples, and context-engineering guidance published with MkDocs."
+readme = "README.md"
+requires-python = ">=3.12"
+
+[dependency-groups]
+docs = [
+  "mkdocs>=1.6",
+  "mkdocs-material>=9.5",
+]
+
+[tool.uv]
+package = false

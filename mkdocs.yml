@@ -1,0 +1,106 @@
+site_name: Prompting Cookbook
+site_description: Prompt recipes, examples, and context-engineering guidance for teaching workflows.
+site_url: https://<owner>.github.io/<repo>/
+
+docs_dir: docs
+site_dir: site
+
+exclude_docs: |
+  .DS_Store
+  assets/.DS_Store
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: blue
+
+repo_name: <owner>/<repo>
+repo_url: https://github.com/<owner>/<repo>
+edit_uri: edit/main/
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Front Door:
+      - Start Here: START-HERE.md
+      - Choose Your Task: CHOOSE-YOUR-TASK.md
+      - Faculty Workflow Example: FACULTY-WORKFLOW-EXAMPLE.md
+      - Common Mistakes and Warnings: COMMON-MISTAKES-AND-WARNINGS.md
+  - Overview:
+      - Workshop Goal: 00-overview/workshop-goal.md
+      - Context Engineering: 00-overview/context-engineering.md
+      - Model Capabilities Overview: 00-overview/model-capabilities-overview.md
+      - Anatomy of a Prompt: 00-overview/anatomy-of-a-prompt.md
+  - Use Cases:
+      - Accessibility: 10-use-cases/accessibility.md
+      - Assignments: 10-use-cases/assignments.md
+      - Syllabus as Context Engine: 10-use-cases/syllabus-as-context-engine.md
+      - Rubrics and Feedback: 10-use-cases/rubrics-and-feedback.md
+      - Interactive Module Elements: 10-use-cases/interactive-module-elements.md
+  - Constraints:
+      - Institutional Requirements: 20-constraints/institutional-requirements.md
+      - Policy-Aware Prompting: 20-constraints/policy-aware-prompting.md
+      - Best Practices and UDL: 20-constraints/best-practices-udl.md
+      - Zero-Shot vs Grounded Use: 20-constraints/zero-shot-vs-grounded.md
+      - Course Values Review: 20-constraints/course-values-review.md
+  - Environment:
+      - Rutgers Tooling: 30-environment/rutgers-tooling.md
+      - Infrastructure Reality: 30-environment/infrastructure-reality.md
+      - Local AI Option: 30-environment/local-ai-option.md
+  - Workshop:
+      - Hands-On Activities: 40-workshop/hands-on-activities.md
+      - Reflection and Readout: 40-workshop/reflection-and-readout.md
+      - Q&A and Open Exploration: 40-workshop/qa-and-open-exploration.md
+  - Prompt Recipes:
+      - Alt-Text Generation: 50-prompt-recipes/alt-text-generation.md
+      - Static to Interactive Assignment: 50-prompt-recipes/static-to-interactive-assignment.md
+      - Syllabus to Module Objectives: 50-prompt-recipes/syllabus-to-module-objectives.md
+      - Rubric Generation: 50-prompt-recipes/rubric-generation.md
+      - Policy-Aware Syllabus Revision: 50-prompt-recipes/policy-aware-syllabus-revision.md
+      - Policy-Safe Generation: 50-prompt-recipes/policy-safe-generation.md
+      - UDL-Aware Activity Design: 50-prompt-recipes/udl-aware-activity-design.md
+      - Hosted Activity Generation: 50-prompt-recipes/hosted-activity-generation.md
+      - Grounded Grading and Feedback: 50-prompt-recipes/grounded-grading-feedback.md
+  - Examples:
+      - Bare vs Context-Rich Prompt: 60-examples/bare-vs-context-rich-prompt.md
+      - Prompt vs Context Engineering: 60-examples/prompt-vs-context-engineering.md
+      - Zero-Shot vs Grounded Summary: 60-examples/zero-shot-vs-grounded-summary.md
+      - Zero-Shot Grading vs Grounded Grading: 60-examples/zero-shot-grading-vs-grounded-grading.md
+      - XR and Social Engagement Week 1: 60-examples/xr-social-engagement-week1.md
+      - Canvas Translation: 60-examples/canvas-translation-example.md
+      - Interactive Vocabulary Practice: 60-examples/interactive-vocabulary-practice.md
+      - Alt-Text Generation Example: 60-examples/alt-text-generation-example.md
+      - Policy-Safe Generation Example: 60-examples/policy-safe-generation-example.md
+      - Static to Interactive Assignment Example: 60-examples/static-to-interactive-assignment-example.md
+  - Reference:
+      - Glossary: 99-reference/glossary.md
+      - File Map: 99-reference/file-map.md
+      - Recipe Template: 99-reference/recipe-template.md

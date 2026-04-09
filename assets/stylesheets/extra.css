@@ -1,0 +1,18 @@
+:root {
+  --md-code-font-size: 0.84rem;
+}
+
+.md-typeset pre > code {
+  border-radius: 0.6rem;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  letter-spacing: -0.01em;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 0.6rem;
+}
