@@ -1,6 +1,6 @@
 site_name: Prompting Cookbook
 site_description: Prompt recipes, examples, and context-engineering guidance for teaching workflows.
-site_url: https://<owner>.github.io/<repo>/
+site_url: https://rianders.github.io/prompting-cookbook/
 
 docs_dir: docs
 site_dir: site
@@ -26,8 +26,8 @@ theme:
       primary: blue grey
       accent: blue
 
-repo_name: <owner>/<repo>
-repo_url: https://github.com/<owner>/<repo>
+repo_name: rianders/prompting-cookbook
+repo_url: https://github.com/rianders/prompting-cookbook
 edit_uri: edit/main/
 
 extra_css:
