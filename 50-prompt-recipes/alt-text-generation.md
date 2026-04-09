@@ -54,6 +54,6 @@ Return:
 - ask for a longer description if the figure is complex and the short alt text cannot carry the meaning
 
 ## See also
-- `10-use-cases/accessibility.md`
-- `20-constraints/best-practices-udl.md`
-- `60-examples/alt-text-generation-example.md`
+- [Accessibility](../10-use-cases/accessibility.md)
+- [Best Practices and UDL](../20-constraints/best-practices-udl.md)
+- [Alt-Text Generation Example](../60-examples/alt-text-generation-example.md)

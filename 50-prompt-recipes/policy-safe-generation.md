@@ -55,7 +55,7 @@ Return:
 - ask the model to separate "can do now" from "requires approved environment" if the answer mixes them
 
 ## See also
-- `20-constraints/policy-aware-prompting.md`
-- `20-constraints/institutional-requirements.md`
-- `COMMON-MISTAKES-AND-WARNINGS.md`
-- `60-examples/policy-safe-generation-example.md`
+- [Policy-Aware Prompting](../20-constraints/policy-aware-prompting.md)
+- [Institutional Requirements](../20-constraints/institutional-requirements.md)
+- [Common Mistakes and Warnings](../COMMON-MISTAKES-AND-WARNINGS.md)
+- [Policy-Safe Generation Example](../60-examples/policy-safe-generation-example.md)

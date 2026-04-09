@@ -57,8 +57,8 @@ Return:
 - ask for a lighter-weight redesign if the first pass adds too many steps
 
 ## See also
-- `10-use-cases/assignments.md`
-- `10-use-cases/interactive-module-elements.md`
-- `50-prompt-recipes/hosted-activity-generation.md`
-- `60-examples/canvas-translation-example.md`
-- `60-examples/static-to-interactive-assignment-example.md`
+- [Assignments](../10-use-cases/assignments.md)
+- [Interactive Module Elements](../10-use-cases/interactive-module-elements.md)
+- [Hosted Activity Generation](../50-prompt-recipes/hosted-activity-generation.md)
+- [Canvas Translation Example](../60-examples/canvas-translation-example.md)
+- [Static to Interactive Assignment Example](../60-examples/static-to-interactive-assignment-example.md)
