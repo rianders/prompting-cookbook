@@ -12,6 +12,7 @@ This revised cookbook is organized around the examples, use cases, constraints, 
 - Site config: `mkdocs.yml`
 - Python project: `pyproject.toml`
 - Pages workflow: `.github/workflows/pages.yml`
+- Published preview: `https://rianders.github.io/prompting-cookbook/`
 
 To preview locally:
 ```bash
@@ -19,7 +20,7 @@ uv sync --group docs
 uv run mkdocs serve
 ```
 
-Before publishing, update the placeholder values in `mkdocs.yml`:
-- `site_url`
-- `repo_name`
-- `repo_url`
+Local preview URL:
+```text
+http://127.0.0.1:8000/
+```
