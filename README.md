@@ -1,5 +1,7 @@
 # Prompting Cookbook
 
+**Live site: [rianders.github.io/prompting-cookbook](https://rianders.github.io/prompting-cookbook/)**
+
 This revised cookbook is organized around the examples, use cases, constraints, and tooling shown in the April 10, 2026 Rutgers UOES presentation on prompting and context engineering.
 
 ## Best Starting Files
