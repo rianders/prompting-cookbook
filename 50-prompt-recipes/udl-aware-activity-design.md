@@ -65,7 +65,7 @@ Return:
 - Do not treat UDL as a checklist decoration added after the activity is finished.
 - Do not assume that adding more options automatically improves UDL — options must serve the learning goal.
 - Do not accept AI-generated WCAG verdicts on HTML or interactive artifacts without testing in an actual browser or with a screen reader.
-- Color contrast must be verified with a contrast checker tool, not estimated from a description.
+- Color contrast must be verified with a contrast checker tool, not estimated from a description. Use the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) or [WAVE](https://wave.webaim.org/).
 
 ## Revision moves
 - If the review is too generic, add the specific platform (Canvas, standalone HTML, in-person) and student accommodation context.

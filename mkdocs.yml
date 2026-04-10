@@ -110,5 +110,6 @@ nav:
       - Hosted Activity Generation Example: 60-examples/hosted-activity-generation-example.md
   - Reference:
       - Glossary: 99-reference/glossary.md
+      - External Resources: 99-reference/external-resources.md
       - File Map: 99-reference/file-map.md
       - Recipe Template: 99-reference/recipe-template.md

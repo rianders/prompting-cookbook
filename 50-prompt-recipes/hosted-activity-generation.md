@@ -51,7 +51,7 @@ Return:
 
 ## Watchouts
 - AI-generated HTML should always be opened in a browser and tested with keyboard-only navigation before sharing with students.
-- Color contrast must be verified with a contrast checker tool — the model cannot measure contrast ratios reliably.
+- Color contrast must be verified with a contrast checker tool — the model cannot measure contrast ratios reliably. Use the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/).
 - The completion section is a summary artifact only; it is not a secure submission. Use your LMS for graded submissions.
 
 ## Revision moves

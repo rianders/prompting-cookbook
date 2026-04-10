@@ -36,3 +36,11 @@ The target accessibility standard for all materials and digital activities in th
 - [Alt-Text Generation Example](../60-examples/alt-text-generation-example.md)
 - [Best Practices: UDL and WCAG 2.1+](../20-constraints/best-practices-udl.md)
 - [Glossary: UDL and WCAG 2.1+](../99-reference/glossary.md)
+- [External Resources](../99-reference/external-resources.md)
+
+## External tools
+- [WCAG 2.1 specification](https://www.w3.org/TR/WCAG21/)
+- [WCAG 2.1 quick reference](https://www.w3.org/WAI/WCAG21/quickref/)
+- [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- [WAVE accessibility evaluator](https://wave.webaim.org/)
+- [Section 508](https://www.section508.gov/)

@@ -12,7 +12,7 @@ A framework for designing instruction that works for the widest range of learner
 
 UDL is not a checklist applied after an activity is designed. It is a lens applied during design. In this cookbook, UDL constraints are embedded into prompt recipes to guide AI output toward more inclusive instructional materials.
 
-**See also:** [Best Practices: UDL and WCAG 2.1+](../20-constraints/best-practices-udl.md), [UDL-Aware Activity Design](../50-prompt-recipes/udl-aware-activity-design.md)
+**See also:** [CAST UDL Guidelines](https://udlguidelines.cast.org/), [Best Practices: UDL and WCAG 2.1+](../20-constraints/best-practices-udl.md), [UDL-Aware Activity Design](../50-prompt-recipes/udl-aware-activity-design.md)
 
 ## WCAG 2.1+ (Web Content Accessibility Guidelines)
 The technical accessibility standard targeted for all course materials and digital activities in this cookbook. WCAG 2.1 is published by the W3C and is organized around four principles, known as **POUR**:
@@ -35,7 +35,7 @@ Key success criteria referenced in this cookbook:
 
 "WCAG 2.1+" in this cookbook means WCAG 2.1 at minimum; WCAG 2.2 criteria are also encouraged where applicable.
 
-**See also:** [Best Practices: UDL and WCAG 2.1+](../20-constraints/best-practices-udl.md), [Accessibility](../10-use-cases/accessibility.md)
+**See also:** [WCAG 2.1 specification](https://www.w3.org/TR/WCAG21/), [WCAG 2.1 quick reference](https://www.w3.org/WAI/WCAG21/quickref/), [Best Practices: UDL and WCAG 2.1+](../20-constraints/best-practices-udl.md), [Accessibility](../10-use-cases/accessibility.md)
 
 ## Grounded Prompt
 A prompt that includes the relevant source materials, course context, and explicit constraints rather than relying on the model's background knowledge. Contrast with a zero-shot prompt.

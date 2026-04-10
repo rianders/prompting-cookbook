@@ -3,9 +3,9 @@
 ## Purpose
 Prompt constraints should reflect pedagogical and accessibility best practices, not only content goals.
 
-**Universal Design for Learning (UDL)** is a framework for designing instruction that works for the widest range of learners from the start. It focuses on three principles: multiple means of engagement, multiple means of representation, and multiple means of action and expression.
+**Universal Design for Learning (UDL)** is a framework for designing instruction that works for the widest range of learners from the start. It focuses on three principles: multiple means of engagement, multiple means of representation, and multiple means of action and expression. → [CAST UDL Guidelines](https://udlguidelines.cast.org/)
 
-**WCAG 2.1+** (Web Content Accessibility Guidelines) is the technical accessibility standard targeted for all course materials and digital activities in this cookbook. WCAG 2.1 success criteria are organized under four principles: Perceivable, Operable, Understandable, and Robust (POUR).
+**WCAG 2.1+** (Web Content Accessibility Guidelines) is the technical accessibility standard targeted for all course materials and digital activities in this cookbook. WCAG 2.1 success criteria are organized under four principles: Perceivable, Operable, Understandable, and Robust (POUR). → [WCAG 2.1 specification](https://www.w3.org/TR/WCAG21/) · [Quick reference](https://www.w3.org/WAI/WCAG21/quickref/)
 
 UDL and WCAG 2.1+ are complementary. UDL governs how instruction is designed; WCAG 2.1+ governs whether the materials and interfaces that deliver it are technically accessible.
 
@@ -43,3 +43,4 @@ UDL and WCAG 2.1+ are complementary. UDL governs how instruction is designed; WC
 - [Alt-Text Generation](../50-prompt-recipes/alt-text-generation.md)
 - [Accessibility](../10-use-cases/accessibility.md)
 - [Glossary: UDL and WCAG 2.1+](../99-reference/glossary.md)
+- [External Resources](../99-reference/external-resources.md)

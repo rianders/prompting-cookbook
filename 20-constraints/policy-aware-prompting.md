@@ -28,3 +28,6 @@ Prompts should reflect privacy, data handling, and approved-tool constraints.
 ## Start here
 - [Policy-Safe Generation](../50-prompt-recipes/policy-safe-generation.md)
 - [Policy-Safe Generation Example](../60-examples/policy-safe-generation-example.md)
+- [Rutgers AI policy and guidance](https://it.rutgers.edu/ai)
+- [FERPA — student privacy](https://studentprivacy.ed.gov/)
+- [External Resources](../99-reference/external-resources.md)

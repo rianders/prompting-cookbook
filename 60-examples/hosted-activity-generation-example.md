@@ -71,7 +71,7 @@ Return:
 
 ## Review notes
 - Open the HTML file in a browser and test with keyboard alone before sharing with students — Tab through every interactive element and confirm each is reachable.
-- Verify color contrast with a contrast checker tool (WebAIM Contrast Checker or similar) — the model cannot measure contrast ratios reliably.
+- Verify color contrast with the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) — the model cannot measure contrast ratios reliably.
 - Check that the completion section captures enough information to be useful as a submission artifact in your LMS.
 - If any vocabulary or grammar in the activity does not appear in the lesson, flag it as invented content.
 
