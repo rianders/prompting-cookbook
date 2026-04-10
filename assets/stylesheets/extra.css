@@ -16,3 +16,32 @@
 .md-typeset details {
   border-radius: 0.6rem;
 }
+
+/*
+ * On narrow screens the sidebar is hidden and the hamburger is the only
+ * way to navigate. Make the button visually distinct so it isn't missed.
+ */
+@media screen and (max-width: 76.1875em) {
+  /* Highlighted background on the hamburger button */
+  label[for="__drawer"].md-header__button {
+    background-color: rgba(255, 255, 255, 0.18);
+    border-radius: 0.3rem;
+    padding: 0.25rem 0.4rem;
+  }
+
+  label[for="__drawer"].md-header__button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  /* "Navigation" text label appended after the icon */
+  label[for="__drawer"].md-header__button::after {
+    content: "Navigation";
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.85);
+    margin-left: 0.35rem;
+    vertical-align: middle;
+  }
+}
