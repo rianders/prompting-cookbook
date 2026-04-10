@@ -17,8 +17,16 @@ Open:
 - [Grounded Grading and Feedback](50-prompt-recipes/grounded-grading-feedback.md)
 
 ## I want to review my course for UDL or value alignment
+Universal Design for Learning (UDL) review checks whether an activity supports multiple means of engagement, representation, and expression.
 Open:
 - [UDL-Aware Activity Design](50-prompt-recipes/udl-aware-activity-design.md)
+
+## I want to make my materials more accessible (WCAG 2.1+)
+The target accessibility standard for all materials in this cookbook is WCAG 2.1+. Start here for alt text, accessible HTML, and accessibility audits of existing materials.
+Open:
+- [Alt-Text Generation](50-prompt-recipes/alt-text-generation.md) — for images, figures, and charts
+- [Accessibility](10-use-cases/accessibility.md) — overview of common accessibility tasks
+- [Best Practices: UDL and WCAG 2.1+](20-constraints/best-practices-udl.md) — constraints to embed in any prompt
 
 ## I want to create an interactive activity
 Open:

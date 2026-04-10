@@ -18,6 +18,9 @@ Generate a draft alt-text description for an uploaded image or figure.
 ```text
 You are helping me draft alt text for course materials.
 
+Accessibility standard: WCAG 2.1 Success Criterion 1.1.1 (Non-text Content).
+For complex images, provide both a short alt text and a longer description per WCAG technique G95.
+
 Use the attached materials as the primary source of truth:
 - the image or figure
 - the surrounding page, slide, caption, or assignment context
@@ -31,12 +34,13 @@ Important constraints:
 - Base the description on what is actually visible and on the supplied course context.
 - Do not invent details that are not visible or not supported by the accompanying materials.
 - Prioritize the educationally relevant content of the image over decorative detail.
-- If the image appears to be complex and may need a longer description, note that clearly.
-- If any important label, axis, or small text is unreadable, mark it as [UNCERTAIN].
+- If the image is decorative only and carries no instructional meaning, return: alt="" and explain why.
+- If the image is complex (diagram, chart, dense notes), provide a short alt text AND a longer description.
+- If any important label, axis, formula, or small text is unreadable, mark it as [UNCERTAIN].
 
 Return:
-1. concise alt text draft
-2. if needed, a short longer-description draft
+1. concise alt text draft (under 150 characters if possible)
+2. if needed, a longer-description draft for complex images
 3. a note explaining which course context shaped the description
 4. any [UNCERTAIN] details that need human review
 ```

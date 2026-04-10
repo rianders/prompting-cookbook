@@ -100,6 +100,11 @@ nav:
       - Alt-Text Generation Example: 60-examples/alt-text-generation-example.md
       - Policy-Safe Generation Example: 60-examples/policy-safe-generation-example.md
       - Static to Interactive Assignment Example: 60-examples/static-to-interactive-assignment-example.md
+      - Syllabus to Module Objectives Example: 60-examples/syllabus-to-module-objectives-example.md
+      - Rubric Generation Example: 60-examples/rubric-generation-example.md
+      - UDL-Aware Activity Design Example: 60-examples/udl-aware-activity-design-example.md
+      - Policy-Aware Syllabus Revision Example: 60-examples/policy-aware-syllabus-revision-example.md
+      - Hosted Activity Generation Example: 60-examples/hosted-activity-generation-example.md
   - Reference:
       - Glossary: 99-reference/glossary.md
       - File Map: 99-reference/file-map.md
